@@ -15,7 +15,7 @@ cap.set(4, 720)
 
 model = YOLO("../Yolo-Weights/yolov8l.pt")
 
-classNames = ["dragon", "bicycle", "car", "motorbike", "aeroplane", "bus", "train", "truck", "boat",
+classNames = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "train", "truck", "boat",
               "traffic light", "fire hydrant", "stop sign", "parking meter", "bench", "bird", "cat",
               "dog", "horse", "sheep", "cow", "elephant", "bear", "zebra", "giraffe", "backpack", "umbrella",
               "handbag", "tie", "suitcase", "frisbee", "skis", "snowboard", "sports ball", "kite", "baseball bat",
